@@ -1,0 +1,27 @@
+# Utilisateurs de démonstration. Mot de passe de chacun : demo-<login> (ex. demo-technicien_01).
+# À remplacer hors démonstration : python -c "from rendacdiag.access import hash_password; print(hash_password('...'))"
+users:
+  - login: technicien_01
+    role: technicien
+    atelier: "ATELIER-A"
+    password_hash: "pbkdf2$3e3f43fede2e301e14e9b2314aac5d60$301bddb7fd8eb62070d7a1086a7a04549ba70004d0142653af169c1d6cd89b87"
+  - login: technicien_02
+    role: technicien
+    atelier: "ATELIER-A"
+    password_hash: "pbkdf2$981dd890564bcb92fffc7eebc6df39ad$2a183c004bf0626ff7dc1da2ba5fad086c255d0cb3f11ffe8520d5897a0d9540"
+  - login: technicien_03
+    role: technicien
+    atelier: "ATELIER-B"
+    password_hash: "pbkdf2$b50aca323386cce289d2390efdaffe9a$44066e1ee27f0d8fd81c246de43acb7d3f5baa8b097583c30cbf371b7f4a5401"
+  - login: chef_atelier_a
+    role: chef_atelier
+    atelier: "ATELIER-A"
+    password_hash: "pbkdf2$88cd2161dc7d96438349b7155fc09899$e2dd96062aa7ccd3967952ed18396948b0fa4135d9d2bc4d09d64260c46d5c6b"
+  - login: receptionnaire_b
+    role: receptionnaire
+    atelier: "ATELIER-B"
+    password_hash: "pbkdf2$64caf5df75415a5754fde4fc274c37c5$4392d461003cacc587b8acac03fe39cb03005b5dbe4357259c1c590618e29a9e"
+  - login: invite
+    role: invite
+    atelier: ""
+    password_hash: "pbkdf2$1c7c35e8ba565e1c67dad156b6bf0294$f2c8207a2d70759855df7f42d7917a55eb871407facc664319eb065405df98d6"

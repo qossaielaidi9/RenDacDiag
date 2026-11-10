@@ -1,77 +1,63 @@
-# Projet MaintiDoc — Livrable 1 : Cadrage, Corpus et Architecture
+# RenDacDiag
 
-## Application au diagnostic automobile : RenDacDiag
-Assistant documentaire multimodal et agentique pour le diagnostic des véhicules **Renault** et **Dacia** (Clio V, Captur II, Sandero III, Duster II) équipés des motorisations Essence TCe (1.0 TCe, 1.3 TCe) et Diesel Blue dCi (1.5 Blue dCi).
+Assistant documentaire multimodal et agentique pour le diagnostic des véhicules Renault et Dacia (Clio V, Captur II, Sandero III, Duster II ; moteurs 1.0 TCe, 1.3 TCe et 1.5 Blue dCi). Application au diagnostic automobile du projet MaintiDoc.
 
----
+Équipe RenDacDiag : Qossai Elaidi, Ebba Soufiane.
 
-## 1. Membres de l'équipe
-- **Soufiane EBBA**
-- **Qossai ELAIDI**
-- **Anas OUJADDI**
+## État par livrable
+| Livrable | Contenu | État |
+|---|---|---|
+| L1 | Cadrage, corpus (50 documents), architecture, risques | `docs/L1_MaintiDoc_RenDacDiag.pdf`, `corpus/` |
+| L2 | Ingestion, index, recherche hybride, contrôle d'accès, évaluation | `src/`, `eval/`, `tests/`, `docs/L2_MaintiDoc_RenDacDiag.pdf` |
 
-*Module IA générative multimodale — EMSI 2026*  
-*Encadrant : Prof. Mariam CHERRABI*
-
----
-
-## 2. Objectif du projet
-Le projet **RenDacDiag** vise à assister les techniciens d'atelier et chefs d'atelier Renault/Dacia dans la résolution des pannes automobiles complexes :
-- **Identification multimodale** : analyse conjointe des questions textuelles, des photographies de tableaux de bord/voyants et des codes défaut OBD-II (DTC).
-- **RAG multimodal sourcé** : recherche filtrée par motorisation et modèle avec vérification stricte des citations et distinction source / observation / hypothèse.
-- **Agentique & MCP** : consultation d'outils atelier (historique, relevés OBD, campagnes) et rédaction assistée d'ordres de réparation (OR) soumise à validation humaine préalable obligatoire.
-
----
-
-## 3. Contenu de l'archive (L1_MaintiDoc_EBBA-ELAIDI-OUJADDI.zip)
-L'archive respecte scrupuleusement l'arborescence et la nomenclature imposées par le cahier des charges :
-
+## Arborescence
 ```
-L1_MaintiDoc_EBBA-ELAIDI-OUJADDI.zip
-└── L1_MaintiDoc_EBBA-ELAIDI-OUJADDI/
-    ├── L1_MaintiDoc_EBBA-ELAIDI-OUJADDI_Rapport.pdf
-    ├── L1_MaintiDoc_EBBA-ELAIDI-OUJADDI_LienGitHub.txt
-    ├── README.md
-    └── L1_MaintiDoc_EBBA-ELAIDI-OUJADDI_Corpus/
-        ├── inventaire.csv
-        ├── prompts_corpus.md
-        ├── documents/
-        │   ├── famille_1/
-        │   └── famille_2/
-        └── images/
+corpus/            50 PDF, inventaire.csv, prompts_corpus.md, images, licences
+config/users.yaml  utilisateurs de démonstration (mot de passe : demo-<login>)
+src/rendacdiag/
+  ingestion/       extraction PDF -> éléments (sections, tableaux, figures) + métadonnées
+  index/           embedders (BGE-M3, CLIP, hash), BM25, construction Qdrant
+  search/          recherche hybride (code exact + BM25 + dense + image, fusion RRF), CLI
+  api/             API FastAPI : jeton, recherche filtrée, ouverture contrôlée des sources
+  access.py        rôles, groupes d'accès, mots de passe
+  dtc.py           extraction et décodage des codes défaut (format UDS inclus)
+eval/              40 questions, script de mesure, résultats
+tests/             20 tests pytest (sans modèle, embedder « hash »)
 ```
 
-### Détail des éléments :
-1. **`L1_MaintiDoc_EBBA-ELAIDI-OUJADDI_Rapport.pdf`** : Rapport complet de cadrage (17 pages) avec page de garde mise à jour pour l'équipe (Qossai Elaidi, Ebba Soufiane, Anas Oujaddi).
-2. **`L1_MaintiDoc_EBBA-ELAIDI-OUJADDI_LienGitHub.txt`** : URL du dépôt GitHub officiel du projet.
-3. **`README.md`** : Synthèse de présentation du livrable 1 et de l'équipe.
-4. **`L1_MaintiDoc_EBBA-ELAIDI-OUJADDI_Corpus/`** :
-   - **`inventaire.csv`** : Registre complet des 50 documents indexés avec leurs métadonnées.
-   - **`prompts_corpus.md`** : Traçabilité détaillée des prompts P-01 à P-06 ayant servi à produire et valider le corpus documentaire.
-   - **`documents/famille_1/`** : 25 documents PDF d'une page dédiés à la **Famille 1 : Motorisation Essence TCe**.
-   - **`documents/famille_2/`** : 25 documents PDF d'une page dédiés à la **Famille 2 : Motorisation Diesel Blue dCi**.
-   - **`images/`** : Pictogrammes des 20 voyants du tableau de bord (V01 à V20) et schémas fonctionnels de principe (DOC-SCH-01 à DOC-SCH-07).
-
----
-
-## 4. Structure du dépôt GitHub
+## Installation (Windows, macOS ou Linux, Python 3.11+)
 ```
-maintidoc/
-├── README.md
-├── .gitignore
-├── docs/
-│   ├── diagrammes/
-│   └── L1_MaintiDoc_EBBA-ELAIDI-OUJADDI_Rapport.pdf
-├── corpus/
-│   ├── inventaire.csv
-│   ├── prompts_corpus.md
-│   ├── documents/
-│   │   ├── famille_1/
-│   │   └── famille_2/
-│   └── images/
-├── data/
-├── prompts/
-├── src/
-├── mcp_server/
-└── eval/
+python -m venv .venv
+.venv\Scripts\activate            # Windows ;  source .venv/bin/activate  ailleurs
+pip install -r requirements-models.txt
+copy .env.example .env            # puis renseigner RDD_JWT_SECRET
+set PYTHONPATH=src                # Windows ;  export PYTHONPATH=src  ailleurs
 ```
+Aucun GPU n'est nécessaire pour le livrable 2 : BGE-M3 et CLIP tournent sur CPU (premier lancement : téléchargement d'environ 2,8 Go).
+
+## Utilisation
+```
+python -m rendacdiag.ingestion.pipeline            # n'indexe que les documents « vérifié » de l'inventaire
+python -m rendacdiag.ingestion.pipeline --inclure-non-verifies   # développement uniquement
+python -m rendacdiag.index.build                   # index Qdrant texte (BGE-M3) et image (CLIP)
+python -m rendacdiag.search.cli "DTC038096 sur un Duster dCi" --role technicien
+python eval/run_eval.py                            # Recall@5, MRR@10, nDCG@5 + tests d'accès
+uvicorn rendacdiag.api.main:app --app-dir src      # API sur http://localhost:8000/docs
+pytest -q                                          # tests (RDD_TEXT_EMBEDDER=hash RDD_IMAGE_EMBEDDER=none)
+```
+Le Qdrant local (sur disque) n'accepte qu'un processus à la fois : arrêter l'API avant de lancer l'évaluation, ou utiliser `docker compose up` (serveur Qdrant).
+
+## Résultats (40 questions, mode développement)
+| Configuration | Recall@5 | MRR@10 | nDCG@5 | Top-1 |
+|---|---|---|---|---|
+| BM25 seul | 0.867 | 0.861 | 0.819 | 0.725 |
+| Code exact + BM25 | 0.917 | 0.882 | 0.873 | 0.750 |
+| Dense seul (BGE-M3) | 0.879 | 0.873 | 0.821 | 0.700 |
+| Code exact + BM25 + dense | 0.917 | 0.921 | 0.899 | 0.825 |
+| Hybride complet (+ CLIP) | 0.917 | 0.919 | 0.898 | 0.825 |
+
+Tests d'accès : 10 / 10 sans fuite. Détail par question : `eval/resultats_l2.json`.
+La liste image (CLIP) n'est utilisée que pour une question visuelle (schéma, voyant, témoin…) ou accompagnée d'une photo : appliquée à toutes les questions, elle faisait tomber le Top-1 de 0.825 à 0.675.
+
+## Règle du corpus
+Un document n'entre dans l'index que si son statut est « vérifié » dans `corpus/inventaire.csv` et que sa licence est renseignée. Les documents écartés et la raison sont listés dans `data/index/rapport_ingestion.json`.

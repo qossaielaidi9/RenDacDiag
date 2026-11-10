@@ -1,0 +1,41 @@
+id,categorie,role,question,documents_attendus
+Q01,code,technicien,Que veut dire le code P0302 sur une Clio V 1.3 TCe ?,DOC-DTC-P0302;DOC-PROC-01
+Q02,code,technicien,La valise affiche P0171 sur une Sandero III. Par où commencer ?,DOC-DTC-P0171;DOC-PROC-02
+Q03,code,technicien,DTC038096 actif sur un Duster 1.5 dCi,DOC-DTC-P0380;DOC-PROC-05
+Q04,code,technicien,P0304 sur une Sandero III 1.0 TCe : c'est la bobine 4 ?,DOC-DTC-P0304;DOC-PROC-01
+Q05,code,technicien,Raté sur le cylindre 3 détecté par la valise,DOC-DTC-P0303;DOC-PROC-01
+Q06,code,technicien,P0420 efficacité du catalyseur sous le seuil,DOC-DTC-P0420
+Q07,code,technicien,Code P0325 capteur de cliquetis,DOC-DTC-P0325;DOC-SCH-01
+Q08,code,technicien,Le code P0351 apparaît : bobine A circuit primaire,DOC-DTC-P0351;DOC-PROC-01
+Q09,code,technicien,P0172 mélange trop riche : quelles causes ?,DOC-DTC-P0172;DOC-PROC-02
+Q10,code,technicien,P0403 circuit de commande de la vanne EGR,DOC-DTC-P0403;DOC-PROC-03
+Q11,code,technicien,P0670 défaut du boîtier de préchauffage,DOC-DTC-P0670;DOC-PROC-05
+Q12,code,technicien,Code P0087 pression de rampe trop basse sur Blue dCi,DOC-DTC-P0087;DOC-PROC-08
+Q13,code,technicien,P0562 tension système basse,DOC-DTC-P0562;DOC-PROC-06
+Q14,symptome,technicien,Le moteur tremble au ralenti et le voyant moteur clignote,DOC-VOY-V02;DOC-DTC-P0300;DOC-PROC-01
+Q15,symptome,technicien,Le chauffage reste tiède et l'aiguille de température monte très lentement,DOC-DTC-P0128;DOC-PROC-07
+Q16,symptome,technicien,Perte de puissance en côte avec un sifflement à l'accélération sur un Duster diesel,DOC-DTC-P0299;DOC-PROC-08
+Q17,symptome,technicien,Démarrage difficile par temps froid sur un Captur dCi,DOC-PROC-05;DOC-DTC-P0380;DOC-VOY-V03
+Q18,symptome,technicien,Voyant batterie allumé en roulant et phares qui baissent,DOC-VOY-V07;DOC-PROC-06;DOC-DTC-P0562
+Q19,symptome,technicien,Fumée noire et perte de puissance : la vanne EGR est-elle en cause ?,DOC-PROC-03;DOC-DTC-P0401
+Q20,symptome,technicien,Ralenti instable et prise d'air suspectée sur une Clio essence,DOC-PROC-02;DOC-DTC-P0171
+Q21,procedure,technicien,Comment tester une bougie de préchauffage ?,DOC-PROC-05
+Q22,procedure,technicien,Comment contrôler le circuit de charge et l'alternateur ?,DOC-PROC-06
+Q23,procedure,technicien,Quelle procédure pour un filtre à particules colmaté ?,DOC-PROC-04;DOC-VOY-V04
+Q24,procedure,technicien,Pression différentielle du FAP presque nulle : durite fissurée ?,DOC-DTC-P0471;DOC-PROC-04
+Q25,procedure,technicien,Le FAP est-il endommagé s'il y a de la fumée à l'échappement ?,DOC-DTC-P2002;DOC-PROC-04
+Q26,schema,technicien,Schéma du circuit d'allumage d'un moteur TCe,DOC-SCH-01
+Q27,schema,technicien,Comment circule l'air dans un diesel avec turbo et EGR ?,DOC-SCH-03
+Q28,schema,technicien,Où se branche le capteur de pression différentielle sur la ligne d'échappement ?,DOC-SCH-04;DOC-DTC-P0471
+Q29,schema,technicien,Schéma du préchauffage diesel avec le boîtier et les bougies,DOC-SCH-05
+Q30,schema,technicien,Schéma du refroidissement : pompe à eau thermostat radiateur,DOC-SCH-07
+Q31,schema,technicien,Schéma de l'admission et de l'injection essence avec le débitmètre,DOC-SCH-02
+Q32,schema,technicien,Schéma du circuit de charge,DOC-SCH-06
+Q33,voyant,receptionnaire,Le voyant rouge de pression d'huile s'allume en roulant,DOC-VOY-V05
+Q34,voyant,receptionnaire,Le voyant de température du liquide est rouge,DOC-VOY-V06
+Q35,voyant,receptionnaire,Que signifie le témoin STOP rouge ?,DOC-VOY-V14
+Q36,voyant,receptionnaire,Voyant de présence d'eau dans le gazole allumé,DOC-VOY-V16
+Q37,voyant,receptionnaire,Le voyant AdBlue orange est allumé,DOC-VOY-V19
+Q38,voyant,receptionnaire,Voyant de pression des pneus allumé,DOC-VOY-V12
+Q39,voyant,invite,Que veut dire un voyant orange ?,DOC-GEN-01
+Q40,general,technicien,Peut-on effacer les codes défaut avant la réparation ?,DOC-GEN-01

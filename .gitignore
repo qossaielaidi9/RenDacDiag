@@ -4,3 +4,10 @@ __pycache__/
 data/raw/
 models/
 .venv/
+data/index/
+data/store/
+data/logs/
+data/qdrant/
+.pytest_cache/
+data/*.log
+eval/backup_avant_full/

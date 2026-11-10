@@ -1,0 +1,3888 @@
+{
+  "configurations": {
+    "bm25": {
+      "global": {
+        "recall@5": 0.867,
+        "mrr@10": 0.861,
+        "ndcg@5": 0.819,
+        "top1": 0.725
+      },
+      "questions": [
+        {
+          "id": "Q01",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0302",
+            "DOC-SCH-01",
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0304",
+            "DOC-DTC-P0300"
+          ],
+          "attendus": [
+            "DOC-DTC-P0302",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 0.5,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.6131471927654584,
+          "top1": 1.0
+        },
+        {
+          "id": "Q02",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0171",
+            "DOC-SCH-02",
+            "DOC-PROC-02",
+            "DOC-DTC-P0172"
+          ],
+          "attendus": [
+            "DOC-DTC-P0171",
+            "DOC-PROC-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.9197207891481876,
+          "top1": 1.0
+        },
+        {
+          "id": "Q03",
+          "categorie": "code",
+          "top5": [
+            "DOC-VOY-V19",
+            "DOC-VOY-V04",
+            "DOC-VOY-V03",
+            "DOC-SCH-03",
+            "DOC-VOY-V16"
+          ],
+          "attendus": [
+            "DOC-DTC-P0380",
+            "DOC-PROC-05"
+          ],
+          "recall@5": 0.0,
+          "mrr@10": 0.16666666666666666,
+          "ndcg@5": 0.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q04",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0304",
+            "DOC-SCH-01",
+            "DOC-PROC-01",
+            "DOC-DTC-P0300",
+            "DOC-DTC-P0303"
+          ],
+          "attendus": [
+            "DOC-DTC-P0304",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.9197207891481876,
+          "top1": 1.0
+        },
+        {
+          "id": "Q05",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0304",
+            "DOC-DTC-P0302",
+            "DOC-DTC-P0301",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0303",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8503449055347546,
+          "top1": 1.0
+        },
+        {
+          "id": "Q06",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0420",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0128",
+            "DOC-VOY-V02",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0420"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q07",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0325",
+            "DOC-SCH-01",
+            "DOC-DTC-P0471",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0128"
+          ],
+          "attendus": [
+            "DOC-DTC-P0325",
+            "DOC-SCH-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q08",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0351",
+            "DOC-DTC-P0128",
+            "DOC-SCH-01",
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0302"
+          ],
+          "attendus": [
+            "DOC-DTC-P0351",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 0.5,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.6131471927654584,
+          "top1": 1.0
+        },
+        {
+          "id": "Q09",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0172",
+            "DOC-DTC-P0171",
+            "DOC-PROC-02",
+            "DOC-DTC-P0087",
+            "DOC-SCH-02"
+          ],
+          "attendus": [
+            "DOC-DTC-P0172",
+            "DOC-PROC-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.9197207891481876,
+          "top1": 1.0
+        },
+        {
+          "id": "Q10",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0403",
+            "DOC-PROC-03",
+            "DOC-DTC-P0401",
+            "DOC-SCH-03",
+            "DOC-DTC-P0670"
+          ],
+          "attendus": [
+            "DOC-DTC-P0403",
+            "DOC-PROC-03"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q11",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0670",
+            "DOC-PROC-05",
+            "DOC-DTC-P0380",
+            "DOC-SCH-05",
+            "DOC-VOY-V03"
+          ],
+          "attendus": [
+            "DOC-DTC-P0670",
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q12",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0087",
+            "DOC-DTC-P0471",
+            "DOC-PROC-08",
+            "DOC-SCH-03",
+            "DOC-DTC-P0380"
+          ],
+          "attendus": [
+            "DOC-DTC-P0087",
+            "DOC-PROC-08"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.9197207891481876,
+          "top1": 1.0
+        },
+        {
+          "id": "Q13",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0562",
+            "DOC-SCH-06",
+            "DOC-PROC-06",
+            "DOC-DTC-P0087",
+            "DOC-GEN-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0562",
+            "DOC-PROC-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.9197207891481876,
+          "top1": 1.0
+        },
+        {
+          "id": "Q14",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-VOY-V02",
+            "DOC-DTC-P0300",
+            "DOC-VOY-V01",
+            "DOC-SCH-02",
+            "DOC-VOY-V06"
+          ],
+          "attendus": [
+            "DOC-VOY-V02",
+            "DOC-DTC-P0300",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 0.6666666666666666,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.7653606369886217,
+          "top1": 1.0
+        },
+        {
+          "id": "Q15",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-PROC-02",
+            "DOC-DTC-P0128",
+            "DOC-SCH-05",
+            "DOC-PROC-07"
+          ],
+          "attendus": [
+            "DOC-DTC-P0128",
+            "DOC-PROC-07"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@5": 0.5437713091520254,
+          "top1": 0.0
+        },
+        {
+          "id": "Q16",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-SCH-04",
+            "DOC-VOY-V14",
+            "DOC-VOY-V17"
+          ],
+          "attendus": [
+            "DOC-DTC-P0299",
+            "DOC-PROC-08"
+          ],
+          "recall@5": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@5": 0.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q17",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-DTC-P0128",
+            "DOC-VOY-V03",
+            "DOC-VOY-V19",
+            "DOC-VOY-V12",
+            "DOC-PROC-07"
+          ],
+          "attendus": [
+            "DOC-PROC-05",
+            "DOC-DTC-P0380",
+            "DOC-VOY-V03"
+          ],
+          "recall@5": 0.3333333333333333,
+          "mrr@10": 0.5,
+          "ndcg@5": 0.2960819109658652,
+          "top1": 0.0
+        },
+        {
+          "id": "Q18",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-SCH-05",
+            "DOC-VOY-V03",
+            "DOC-VOY-V07",
+            "DOC-DTC-P0128",
+            "DOC-PROC-06"
+          ],
+          "attendus": [
+            "DOC-VOY-V07",
+            "DOC-PROC-06",
+            "DOC-DTC-P0562"
+          ],
+          "recall@5": 0.6666666666666666,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@5": 0.41618115554873086,
+          "top1": 0.0
+        },
+        {
+          "id": "Q19",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-DTC-P0403",
+            "DOC-DTC-P0401",
+            "DOC-PROC-03",
+            "DOC-SCH-03",
+            "DOC-PROC-04"
+          ],
+          "attendus": [
+            "DOC-PROC-03",
+            "DOC-DTC-P0401"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@5": 0.6934264036172708,
+          "top1": 0.0
+        },
+        {
+          "id": "Q20",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-02",
+            "DOC-SCH-02",
+            "DOC-DTC-P0300",
+            "DOC-DTC-P0562",
+            "DOC-DTC-P0171"
+          ],
+          "attendus": [
+            "DOC-PROC-02",
+            "DOC-DTC-P0171"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8503449055347546,
+          "top1": 1.0
+        },
+        {
+          "id": "Q21",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-DTC-P0380",
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-VOY-V03",
+            "DOC-DTC-P0670"
+          ],
+          "attendus": [
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@5": 0.6309297535714575,
+          "top1": 0.0
+        },
+        {
+          "id": "Q22",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-06",
+            "DOC-VOY-V07",
+            "DOC-SCH-06",
+            "DOC-VOY-V02",
+            "DOC-DTC-P0562"
+          ],
+          "attendus": [
+            "DOC-PROC-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q23",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0087",
+            "DOC-VOY-V04",
+            "DOC-PROC-08"
+          ],
+          "attendus": [
+            "DOC-PROC-04",
+            "DOC-VOY-V04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8772153153380493,
+          "top1": 1.0
+        },
+        {
+          "id": "Q24",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-DTC-P0471",
+            "DOC-DTC-P2002",
+            "DOC-SCH-04",
+            "DOC-PROC-08"
+          ],
+          "attendus": [
+            "DOC-DTC-P0471",
+            "DOC-PROC-04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q25",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0471",
+            "DOC-SCH-04",
+            "DOC-SCH-03"
+          ],
+          "attendus": [
+            "DOC-DTC-P2002",
+            "DOC-PROC-04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q26",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-01",
+            "DOC-SCH-02",
+            "DOC-SCH-07",
+            "DOC-SCH-06",
+            "DOC-DTC-P0351"
+          ],
+          "attendus": [
+            "DOC-SCH-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q27",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-03",
+            "DOC-DTC-P0299",
+            "DOC-SCH-07",
+            "DOC-VOY-V16",
+            "DOC-DTC-P0403"
+          ],
+          "attendus": [
+            "DOC-SCH-03"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q28",
+          "categorie": "schema",
+          "top5": [
+            "DOC-DTC-P0471",
+            "DOC-SCH-04",
+            "DOC-DTC-P2002",
+            "DOC-PROC-03",
+            "DOC-PROC-04"
+          ],
+          "attendus": [
+            "DOC-SCH-04",
+            "DOC-DTC-P0471"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q29",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-05",
+            "DOC-PROC-05",
+            "DOC-DTC-P0380",
+            "DOC-DTC-P0670",
+            "DOC-SCH-04"
+          ],
+          "attendus": [
+            "DOC-SCH-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q30",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-07",
+            "DOC-PROC-07",
+            "DOC-VOY-V16",
+            "DOC-SCH-02",
+            "DOC-SCH-03"
+          ],
+          "attendus": [
+            "DOC-SCH-07"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q31",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-02",
+            "DOC-SCH-01",
+            "DOC-PROC-02",
+            "DOC-PROC-06",
+            "DOC-DTC-P0172"
+          ],
+          "attendus": [
+            "DOC-SCH-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q32",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-06",
+            "DOC-VOY-V07",
+            "DOC-PROC-06",
+            "DOC-SCH-07",
+            "DOC-SCH-04"
+          ],
+          "attendus": [
+            "DOC-SCH-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q33",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V05",
+            "DOC-VOY-V03",
+            "DOC-VOY-V14",
+            "DOC-VOY-V07",
+            "DOC-VOY-V06"
+          ],
+          "attendus": [
+            "DOC-VOY-V05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q34",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V06",
+            "DOC-VOY-V08",
+            "DOC-VOY-V14",
+            "DOC-VOY-V07",
+            "DOC-VOY-V05"
+          ],
+          "attendus": [
+            "DOC-VOY-V06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q35",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V14",
+            "DOC-GEN-01",
+            "DOC-VOY-V17",
+            "DOC-VOY-V15",
+            "DOC-VOY-V07"
+          ],
+          "attendus": [
+            "DOC-VOY-V14"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q36",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V16",
+            "DOC-GEN-01",
+            "DOC-VOY-V17",
+            "DOC-VOY-V15",
+            "DOC-VOY-V14"
+          ],
+          "attendus": [
+            "DOC-VOY-V16"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q37",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V19",
+            "DOC-VOY-V17",
+            "DOC-VOY-V15",
+            "DOC-VOY-V03",
+            "DOC-VOY-V12"
+          ],
+          "attendus": [
+            "DOC-VOY-V19"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q38",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V12",
+            "DOC-VOY-V05",
+            "DOC-GEN-01",
+            "DOC-VOY-V17",
+            "DOC-VOY-V15"
+          ],
+          "attendus": [
+            "DOC-VOY-V12"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q39",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V17",
+            "DOC-VOY-V15",
+            "DOC-VOY-V03",
+            "DOC-VOY-V19",
+            "DOC-VOY-V12"
+          ],
+          "attendus": [
+            "DOC-GEN-01"
+          ],
+          "recall@5": 0.0,
+          "mrr@10": 0.1,
+          "ndcg@5": 0.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q40",
+          "categorie": "general",
+          "top5": [
+            "DOC-GEN-01",
+            "DOC-DTC-P0304",
+            "DOC-PROC-03",
+            "DOC-VOY-V03",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-GEN-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        }
+      ],
+      "par_categorie": {
+        "code": 0.846,
+        "general": 1.0,
+        "procedure": 1.0,
+        "schema": 1.0,
+        "symptome": 0.667,
+        "voyant": 0.857
+      }
+    },
+    "code+bm25": {
+      "global": {
+        "recall@5": 0.917,
+        "mrr@10": 0.882,
+        "ndcg@5": 0.873,
+        "top1": 0.75
+      },
+      "questions": [
+        {
+          "id": "Q01",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0302",
+            "DOC-PROC-01",
+            "DOC-SCH-01",
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0304"
+          ],
+          "attendus": [
+            "DOC-DTC-P0302",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q02",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0171",
+            "DOC-PROC-02",
+            "DOC-SCH-02",
+            "DOC-DTC-P0172"
+          ],
+          "attendus": [
+            "DOC-DTC-P0171",
+            "DOC-PROC-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q03",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0380",
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-VOY-V19",
+            "DOC-VOY-V04"
+          ],
+          "attendus": [
+            "DOC-DTC-P0380",
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q04",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0304",
+            "DOC-PROC-01",
+            "DOC-SCH-01",
+            "DOC-DTC-P0300",
+            "DOC-DTC-P0303"
+          ],
+          "attendus": [
+            "DOC-DTC-P0304",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q05",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0304",
+            "DOC-DTC-P0302",
+            "DOC-DTC-P0301",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0303",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8503449055347546,
+          "top1": 1.0
+        },
+        {
+          "id": "Q06",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0420",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0128",
+            "DOC-VOY-V02",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0420"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q07",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0325",
+            "DOC-SCH-01",
+            "DOC-DTC-P0471",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0128"
+          ],
+          "attendus": [
+            "DOC-DTC-P0325",
+            "DOC-SCH-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q08",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0351",
+            "DOC-PROC-01",
+            "DOC-SCH-01",
+            "DOC-DTC-P0128",
+            "DOC-DTC-P0303"
+          ],
+          "attendus": [
+            "DOC-DTC-P0351",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q09",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0172",
+            "DOC-PROC-02",
+            "DOC-SCH-02",
+            "DOC-DTC-P0171",
+            "DOC-DTC-P0087"
+          ],
+          "attendus": [
+            "DOC-DTC-P0172",
+            "DOC-PROC-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q10",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0403",
+            "DOC-PROC-03",
+            "DOC-SCH-03",
+            "DOC-DTC-P0401",
+            "DOC-DTC-P0670"
+          ],
+          "attendus": [
+            "DOC-DTC-P0403",
+            "DOC-PROC-03"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q11",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0670",
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-DTC-P0380",
+            "DOC-VOY-V03"
+          ],
+          "attendus": [
+            "DOC-DTC-P0670",
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q12",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0087",
+            "DOC-PROC-08",
+            "DOC-DTC-P0471",
+            "DOC-SCH-03",
+            "DOC-DTC-P0380"
+          ],
+          "attendus": [
+            "DOC-DTC-P0087",
+            "DOC-PROC-08"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q13",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0562",
+            "DOC-PROC-06",
+            "DOC-SCH-06",
+            "DOC-DTC-P0087",
+            "DOC-GEN-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0562",
+            "DOC-PROC-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q14",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-VOY-V02",
+            "DOC-DTC-P0300",
+            "DOC-VOY-V01",
+            "DOC-SCH-02",
+            "DOC-VOY-V06"
+          ],
+          "attendus": [
+            "DOC-VOY-V02",
+            "DOC-DTC-P0300",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 0.6666666666666666,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.7653606369886217,
+          "top1": 1.0
+        },
+        {
+          "id": "Q15",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-PROC-02",
+            "DOC-DTC-P0128",
+            "DOC-SCH-05",
+            "DOC-PROC-07"
+          ],
+          "attendus": [
+            "DOC-DTC-P0128",
+            "DOC-PROC-07"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@5": 0.5437713091520254,
+          "top1": 0.0
+        },
+        {
+          "id": "Q16",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-SCH-04",
+            "DOC-VOY-V14",
+            "DOC-VOY-V17"
+          ],
+          "attendus": [
+            "DOC-DTC-P0299",
+            "DOC-PROC-08"
+          ],
+          "recall@5": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@5": 0.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q17",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-DTC-P0128",
+            "DOC-VOY-V03",
+            "DOC-VOY-V19",
+            "DOC-VOY-V12",
+            "DOC-PROC-07"
+          ],
+          "attendus": [
+            "DOC-PROC-05",
+            "DOC-DTC-P0380",
+            "DOC-VOY-V03"
+          ],
+          "recall@5": 0.3333333333333333,
+          "mrr@10": 0.5,
+          "ndcg@5": 0.2960819109658652,
+          "top1": 0.0
+        },
+        {
+          "id": "Q18",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-SCH-05",
+            "DOC-VOY-V03",
+            "DOC-VOY-V07",
+            "DOC-DTC-P0128",
+            "DOC-PROC-06"
+          ],
+          "attendus": [
+            "DOC-VOY-V07",
+            "DOC-PROC-06",
+            "DOC-DTC-P0562"
+          ],
+          "recall@5": 0.6666666666666666,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@5": 0.41618115554873086,
+          "top1": 0.0
+        },
+        {
+          "id": "Q19",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-DTC-P0403",
+            "DOC-DTC-P0401",
+            "DOC-PROC-03",
+            "DOC-SCH-03",
+            "DOC-PROC-04"
+          ],
+          "attendus": [
+            "DOC-PROC-03",
+            "DOC-DTC-P0401"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@5": 0.6934264036172708,
+          "top1": 0.0
+        },
+        {
+          "id": "Q20",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-02",
+            "DOC-SCH-02",
+            "DOC-DTC-P0300",
+            "DOC-DTC-P0562",
+            "DOC-DTC-P0171"
+          ],
+          "attendus": [
+            "DOC-PROC-02",
+            "DOC-DTC-P0171"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8503449055347546,
+          "top1": 1.0
+        },
+        {
+          "id": "Q21",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-DTC-P0380",
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-VOY-V03",
+            "DOC-DTC-P0670"
+          ],
+          "attendus": [
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@5": 0.6309297535714575,
+          "top1": 0.0
+        },
+        {
+          "id": "Q22",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-06",
+            "DOC-VOY-V07",
+            "DOC-SCH-06",
+            "DOC-VOY-V02",
+            "DOC-DTC-P0562"
+          ],
+          "attendus": [
+            "DOC-PROC-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q23",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0087",
+            "DOC-VOY-V04",
+            "DOC-PROC-08"
+          ],
+          "attendus": [
+            "DOC-PROC-04",
+            "DOC-VOY-V04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8772153153380493,
+          "top1": 1.0
+        },
+        {
+          "id": "Q24",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-DTC-P0471",
+            "DOC-DTC-P2002",
+            "DOC-SCH-04",
+            "DOC-PROC-08"
+          ],
+          "attendus": [
+            "DOC-DTC-P0471",
+            "DOC-PROC-04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q25",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0471",
+            "DOC-SCH-04",
+            "DOC-SCH-03"
+          ],
+          "attendus": [
+            "DOC-DTC-P2002",
+            "DOC-PROC-04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q26",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-01",
+            "DOC-SCH-02",
+            "DOC-SCH-07",
+            "DOC-SCH-06",
+            "DOC-DTC-P0351"
+          ],
+          "attendus": [
+            "DOC-SCH-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q27",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-03",
+            "DOC-DTC-P0299",
+            "DOC-SCH-07",
+            "DOC-VOY-V16",
+            "DOC-DTC-P0403"
+          ],
+          "attendus": [
+            "DOC-SCH-03"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q28",
+          "categorie": "schema",
+          "top5": [
+            "DOC-DTC-P0471",
+            "DOC-SCH-04",
+            "DOC-DTC-P2002",
+            "DOC-PROC-03",
+            "DOC-PROC-04"
+          ],
+          "attendus": [
+            "DOC-SCH-04",
+            "DOC-DTC-P0471"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q29",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-05",
+            "DOC-PROC-05",
+            "DOC-DTC-P0380",
+            "DOC-DTC-P0670",
+            "DOC-SCH-04"
+          ],
+          "attendus": [
+            "DOC-SCH-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q30",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-07",
+            "DOC-PROC-07",
+            "DOC-VOY-V16",
+            "DOC-SCH-02",
+            "DOC-SCH-03"
+          ],
+          "attendus": [
+            "DOC-SCH-07"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q31",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-02",
+            "DOC-SCH-01",
+            "DOC-PROC-02",
+            "DOC-PROC-06",
+            "DOC-DTC-P0172"
+          ],
+          "attendus": [
+            "DOC-SCH-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q32",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-06",
+            "DOC-VOY-V07",
+            "DOC-PROC-06",
+            "DOC-SCH-07",
+            "DOC-SCH-04"
+          ],
+          "attendus": [
+            "DOC-SCH-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q33",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V05",
+            "DOC-VOY-V03",
+            "DOC-VOY-V14",
+            "DOC-VOY-V07",
+            "DOC-VOY-V06"
+          ],
+          "attendus": [
+            "DOC-VOY-V05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q34",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V06",
+            "DOC-VOY-V08",
+            "DOC-VOY-V14",
+            "DOC-VOY-V07",
+            "DOC-VOY-V05"
+          ],
+          "attendus": [
+            "DOC-VOY-V06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q35",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V14",
+            "DOC-GEN-01",
+            "DOC-VOY-V17",
+            "DOC-VOY-V15",
+            "DOC-VOY-V07"
+          ],
+          "attendus": [
+            "DOC-VOY-V14"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q36",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V16",
+            "DOC-GEN-01",
+            "DOC-VOY-V17",
+            "DOC-VOY-V15",
+            "DOC-VOY-V14"
+          ],
+          "attendus": [
+            "DOC-VOY-V16"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q37",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V19",
+            "DOC-VOY-V17",
+            "DOC-VOY-V15",
+            "DOC-VOY-V03",
+            "DOC-VOY-V12"
+          ],
+          "attendus": [
+            "DOC-VOY-V19"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q38",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V12",
+            "DOC-VOY-V05",
+            "DOC-GEN-01",
+            "DOC-VOY-V17",
+            "DOC-VOY-V15"
+          ],
+          "attendus": [
+            "DOC-VOY-V12"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q39",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V17",
+            "DOC-VOY-V15",
+            "DOC-VOY-V03",
+            "DOC-VOY-V19",
+            "DOC-VOY-V12"
+          ],
+          "attendus": [
+            "DOC-GEN-01"
+          ],
+          "recall@5": 0.0,
+          "mrr@10": 0.1,
+          "ndcg@5": 0.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q40",
+          "categorie": "general",
+          "top5": [
+            "DOC-GEN-01",
+            "DOC-DTC-P0304",
+            "DOC-PROC-03",
+            "DOC-VOY-V03",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-GEN-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        }
+      ],
+      "par_categorie": {
+        "code": 1.0,
+        "general": 1.0,
+        "procedure": 1.0,
+        "schema": 1.0,
+        "symptome": 0.667,
+        "voyant": 0.857
+      }
+    },
+    "dense": {
+      "global": {
+        "recall@5": 0.879,
+        "mrr@10": 0.873,
+        "ndcg@5": 0.821,
+        "top1": 0.7
+      },
+      "questions": [
+        {
+          "id": "Q01",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0302",
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0301",
+            "DOC-DTC-P0325",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0302",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8503449055347546,
+          "top1": 1.0
+        },
+        {
+          "id": "Q02",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0171",
+            "DOC-DTC-P0172",
+            "DOC-DTC-P0471",
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0300"
+          ],
+          "attendus": [
+            "DOC-DTC-P0171",
+            "DOC-PROC-02"
+          ],
+          "recall@5": 0.5,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.6131471927654584,
+          "top1": 1.0
+        },
+        {
+          "id": "Q03",
+          "categorie": "code",
+          "top5": [
+            "DOC-VOY-V01",
+            "DOC-PROC-05",
+            "DOC-SCH-03",
+            "DOC-DTC-P0380",
+            "DOC-VOY-V03"
+          ],
+          "attendus": [
+            "DOC-DTC-P0380",
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@5": 0.6509209298071326,
+          "top1": 0.0
+        },
+        {
+          "id": "Q04",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0304",
+            "DOC-DTC-P0300",
+            "DOC-DTC-P0351",
+            "DOC-DTC-P0301",
+            "DOC-PROC-03"
+          ],
+          "attendus": [
+            "DOC-DTC-P0304",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 0.5,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.6131471927654584,
+          "top1": 1.0
+        },
+        {
+          "id": "Q05",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0301",
+            "DOC-DTC-P0304",
+            "DOC-DTC-P0302",
+            "DOC-DTC-P0300"
+          ],
+          "attendus": [
+            "DOC-DTC-P0303",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 0.5,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.6131471927654584,
+          "top1": 1.0
+        },
+        {
+          "id": "Q06",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0420",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0471",
+            "DOC-DTC-P0128",
+            "DOC-DTC-P0562"
+          ],
+          "attendus": [
+            "DOC-DTC-P0420"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q07",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0325",
+            "DOC-PROC-01",
+            "DOC-DTC-P0300",
+            "DOC-SCH-01",
+            "DOC-DTC-P0471"
+          ],
+          "attendus": [
+            "DOC-DTC-P0325",
+            "DOC-SCH-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8772153153380493,
+          "top1": 1.0
+        },
+        {
+          "id": "Q08",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0351",
+            "DOC-DTC-P0301",
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0325",
+            "DOC-SCH-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0351",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 0.5,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.6131471927654584,
+          "top1": 1.0
+        },
+        {
+          "id": "Q09",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0172",
+            "DOC-DTC-P0171",
+            "DOC-DTC-P0299",
+            "DOC-PROC-02",
+            "DOC-DTC-P0471"
+          ],
+          "attendus": [
+            "DOC-DTC-P0172",
+            "DOC-PROC-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8772153153380493,
+          "top1": 1.0
+        },
+        {
+          "id": "Q10",
+          "categorie": "code",
+          "top5": [
+            "DOC-PROC-03",
+            "DOC-DTC-P0403",
+            "DOC-DTC-P0401",
+            "DOC-SCH-03",
+            "DOC-SCH-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0403",
+            "DOC-PROC-03"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q11",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0670",
+            "DOC-SCH-05",
+            "DOC-DTC-P0380",
+            "DOC-PROC-05",
+            "DOC-SCH-07"
+          ],
+          "attendus": [
+            "DOC-DTC-P0670",
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8772153153380493,
+          "top1": 1.0
+        },
+        {
+          "id": "Q12",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0087",
+            "DOC-PROC-08",
+            "DOC-SCH-03",
+            "DOC-DTC-P0471",
+            "DOC-DTC-P0562"
+          ],
+          "attendus": [
+            "DOC-DTC-P0087",
+            "DOC-PROC-08"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q13",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0562",
+            "DOC-SCH-06",
+            "DOC-DTC-P0087",
+            "DOC-DTC-P2002",
+            "DOC-PROC-06"
+          ],
+          "attendus": [
+            "DOC-DTC-P0562",
+            "DOC-PROC-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8503449055347546,
+          "top1": 1.0
+        },
+        {
+          "id": "Q14",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-DTC-P0300",
+            "DOC-VOY-V02",
+            "DOC-VOY-V03",
+            "DOC-VOY-V01",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-VOY-V02",
+            "DOC-DTC-P0300",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.9469024295259745,
+          "top1": 0.0
+        },
+        {
+          "id": "Q15",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-07",
+            "DOC-DTC-P0128",
+            "DOC-SCH-07",
+            "DOC-VOY-V06",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0128",
+            "DOC-PROC-07"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q16",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-05",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0299",
+            "DOC-DTC-P0471",
+            "DOC-PROC-04"
+          ],
+          "attendus": [
+            "DOC-DTC-P0299",
+            "DOC-PROC-08"
+          ],
+          "recall@5": 0.5,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@5": 0.3065735963827292,
+          "top1": 0.0
+        },
+        {
+          "id": "Q17",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-07",
+            "DOC-VOY-V01",
+            "DOC-DTC-P0128",
+            "DOC-DTC-P0471",
+            "DOC-VOY-V06"
+          ],
+          "attendus": [
+            "DOC-PROC-05",
+            "DOC-DTC-P0380",
+            "DOC-VOY-V03"
+          ],
+          "recall@5": 0.0,
+          "mrr@10": 0.1111111111111111,
+          "ndcg@5": 0.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q18",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-SCH-06",
+            "DOC-DTC-P0300",
+            "DOC-VOY-V07",
+            "DOC-PROC-06",
+            "DOC-VOY-V03"
+          ],
+          "attendus": [
+            "DOC-VOY-V07",
+            "DOC-PROC-06",
+            "DOC-DTC-P0562"
+          ],
+          "recall@5": 0.6666666666666666,
+          "mrr@10": 0.3333333333333333,
+          "ndcg@5": 0.4367467095119258,
+          "top1": 0.0
+        },
+        {
+          "id": "Q19",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-DTC-P0403",
+            "DOC-DTC-P0401",
+            "DOC-SCH-03",
+            "DOC-PROC-03",
+            "DOC-DTC-P0300"
+          ],
+          "attendus": [
+            "DOC-PROC-03",
+            "DOC-DTC-P0401"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@5": 0.6509209298071326,
+          "top1": 0.0
+        },
+        {
+          "id": "Q20",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-02",
+            "DOC-DTC-P0300",
+            "DOC-PROC-08",
+            "DOC-DTC-P0171",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-PROC-02",
+            "DOC-DTC-P0171"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8772153153380493,
+          "top1": 1.0
+        },
+        {
+          "id": "Q21",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-DTC-P0380",
+            "DOC-PROC-01",
+            "DOC-PROC-07"
+          ],
+          "attendus": [
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q22",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-SCH-06",
+            "DOC-PROC-06",
+            "DOC-VOY-V07",
+            "DOC-PROC-08",
+            "DOC-PROC-07"
+          ],
+          "attendus": [
+            "DOC-PROC-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@5": 0.6309297535714575,
+          "top1": 0.0
+        },
+        {
+          "id": "Q23",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-VOY-V04",
+            "DOC-PROC-07",
+            "DOC-DTC-P2002",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-PROC-04",
+            "DOC-VOY-V04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q24",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-DTC-P2002",
+            "DOC-PROC-04",
+            "DOC-DTC-P0471",
+            "DOC-SCH-04",
+            "DOC-DTC-P0299"
+          ],
+          "attendus": [
+            "DOC-DTC-P0471",
+            "DOC-PROC-04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@5": 0.6934264036172708,
+          "top1": 0.0
+        },
+        {
+          "id": "Q25",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-SCH-04",
+            "DOC-DTC-P0471",
+            "DOC-DTC-P2002",
+            "DOC-VOY-V04"
+          ],
+          "attendus": [
+            "DOC-DTC-P2002",
+            "DOC-PROC-04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8772153153380493,
+          "top1": 0.0
+        },
+        {
+          "id": "Q26",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-01",
+            "DOC-SCH-02",
+            "DOC-DTC-P0351",
+            "DOC-PROC-01",
+            "DOC-SCH-06"
+          ],
+          "attendus": [
+            "DOC-SCH-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q27",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-03",
+            "DOC-SCH-04",
+            "DOC-DTC-P0403",
+            "DOC-DTC-P0401",
+            "DOC-PROC-04"
+          ],
+          "attendus": [
+            "DOC-SCH-03"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q28",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-04",
+            "DOC-DTC-P0471",
+            "DOC-PROC-04",
+            "DOC-PROC-08",
+            "DOC-DTC-P2002"
+          ],
+          "attendus": [
+            "DOC-SCH-04",
+            "DOC-DTC-P0471"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q29",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-05",
+            "DOC-PROC-05",
+            "DOC-DTC-P0380",
+            "DOC-SCH-03",
+            "DOC-SCH-04"
+          ],
+          "attendus": [
+            "DOC-SCH-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q30",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-07",
+            "DOC-PROC-07",
+            "DOC-DTC-P0128",
+            "DOC-SCH-03",
+            "DOC-SCH-02"
+          ],
+          "attendus": [
+            "DOC-SCH-07"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q31",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-02",
+            "DOC-SCH-01",
+            "DOC-SCH-07",
+            "DOC-PROC-02",
+            "DOC-SCH-06"
+          ],
+          "attendus": [
+            "DOC-SCH-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q32",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-06",
+            "DOC-SCH-01",
+            "DOC-PROC-06",
+            "DOC-VOY-V07",
+            "DOC-SCH-02"
+          ],
+          "attendus": [
+            "DOC-SCH-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q33",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V05",
+            "DOC-VOY-V08",
+            "DOC-VOY-V07",
+            "DOC-VOY-V06",
+            "DOC-VOY-V03"
+          ],
+          "attendus": [
+            "DOC-VOY-V05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q34",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V06",
+            "DOC-VOY-V08",
+            "DOC-VOY-V05",
+            "DOC-VOY-V07",
+            "DOC-VOY-V14"
+          ],
+          "attendus": [
+            "DOC-VOY-V06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q35",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V14",
+            "DOC-VOY-V08",
+            "DOC-GEN-01",
+            "DOC-VOY-V05",
+            "DOC-VOY-V06"
+          ],
+          "attendus": [
+            "DOC-VOY-V14"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q36",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V16",
+            "DOC-VOY-V03",
+            "DOC-VOY-V06",
+            "DOC-VOY-V08",
+            "DOC-VOY-V07"
+          ],
+          "attendus": [
+            "DOC-VOY-V16"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q37",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V19",
+            "DOC-VOY-V03",
+            "DOC-VOY-V16",
+            "DOC-VOY-V01",
+            "DOC-VOY-V04"
+          ],
+          "attendus": [
+            "DOC-VOY-V19"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q38",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V12",
+            "DOC-VOY-V05",
+            "DOC-VOY-V03",
+            "DOC-VOY-V04",
+            "DOC-VOY-V07"
+          ],
+          "attendus": [
+            "DOC-VOY-V12"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q39",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V02",
+            "DOC-VOY-V15",
+            "DOC-VOY-V17",
+            "DOC-VOY-V01",
+            "DOC-VOY-V12"
+          ],
+          "attendus": [
+            "DOC-GEN-01"
+          ],
+          "recall@5": 0.0,
+          "mrr@10": 0.14285714285714285,
+          "ndcg@5": 0.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q40",
+          "categorie": "general",
+          "top5": [
+            "DOC-GEN-01",
+            "DOC-DTC-P0171",
+            "DOC-DTC-P0300",
+            "DOC-PROC-01",
+            "DOC-DTC-P0301"
+          ],
+          "attendus": [
+            "DOC-GEN-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        }
+      ],
+      "par_categorie": {
+        "code": 0.846,
+        "general": 1.0,
+        "procedure": 1.0,
+        "schema": 1.0,
+        "symptome": 0.738,
+        "voyant": 0.857
+      }
+    },
+    "code+bm25+dense": {
+      "global": {
+        "recall@5": 0.917,
+        "mrr@10": 0.921,
+        "ndcg@5": 0.899,
+        "top1": 0.825
+      },
+      "questions": [
+        {
+          "id": "Q01",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0302",
+            "DOC-PROC-01",
+            "DOC-SCH-01",
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0300"
+          ],
+          "attendus": [
+            "DOC-DTC-P0302",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q02",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0171",
+            "DOC-PROC-02",
+            "DOC-SCH-02",
+            "DOC-DTC-P0172",
+            "DOC-DTC-P0471"
+          ],
+          "attendus": [
+            "DOC-DTC-P0171",
+            "DOC-PROC-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q03",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0380",
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-SCH-03",
+            "DOC-VOY-V03"
+          ],
+          "attendus": [
+            "DOC-DTC-P0380",
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q04",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0304",
+            "DOC-PROC-01",
+            "DOC-SCH-01",
+            "DOC-DTC-P0300",
+            "DOC-DTC-P0301"
+          ],
+          "attendus": [
+            "DOC-DTC-P0304",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q05",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0304",
+            "DOC-DTC-P0301",
+            "DOC-DTC-P0302",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0303",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8503449055347546,
+          "top1": 1.0
+        },
+        {
+          "id": "Q06",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0420",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0128",
+            "DOC-DTC-P0300",
+            "DOC-VOY-V02"
+          ],
+          "attendus": [
+            "DOC-DTC-P0420"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q07",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0325",
+            "DOC-SCH-01",
+            "DOC-DTC-P0471",
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0300"
+          ],
+          "attendus": [
+            "DOC-DTC-P0325",
+            "DOC-SCH-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q08",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0351",
+            "DOC-PROC-01",
+            "DOC-SCH-01",
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0301"
+          ],
+          "attendus": [
+            "DOC-DTC-P0351",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q09",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0172",
+            "DOC-PROC-02",
+            "DOC-SCH-02",
+            "DOC-DTC-P0171",
+            "DOC-DTC-P0087"
+          ],
+          "attendus": [
+            "DOC-DTC-P0172",
+            "DOC-PROC-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q10",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0403",
+            "DOC-PROC-03",
+            "DOC-SCH-03",
+            "DOC-DTC-P0401",
+            "DOC-SCH-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0403",
+            "DOC-PROC-03"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q11",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0670",
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-DTC-P0380",
+            "DOC-SCH-07"
+          ],
+          "attendus": [
+            "DOC-DTC-P0670",
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q12",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0087",
+            "DOC-PROC-08",
+            "DOC-DTC-P0471",
+            "DOC-SCH-03",
+            "DOC-DTC-P2002"
+          ],
+          "attendus": [
+            "DOC-DTC-P0087",
+            "DOC-PROC-08"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q13",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0562",
+            "DOC-PROC-06",
+            "DOC-SCH-06",
+            "DOC-DTC-P0087",
+            "DOC-DTC-P0171"
+          ],
+          "attendus": [
+            "DOC-DTC-P0562",
+            "DOC-PROC-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q14",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-VOY-V02",
+            "DOC-DTC-P0300",
+            "DOC-VOY-V01",
+            "DOC-VOY-V06",
+            "DOC-VOY-V03"
+          ],
+          "attendus": [
+            "DOC-VOY-V02",
+            "DOC-DTC-P0300",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 0.6666666666666666,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.7653606369886217,
+          "top1": 1.0
+        },
+        {
+          "id": "Q15",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-DTC-P0128",
+            "DOC-PROC-07",
+            "DOC-SCH-07",
+            "DOC-SCH-05",
+            "DOC-VOY-V06"
+          ],
+          "attendus": [
+            "DOC-DTC-P0128",
+            "DOC-PROC-07"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q16",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-SCH-04",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0471"
+          ],
+          "attendus": [
+            "DOC-DTC-P0299",
+            "DOC-PROC-08"
+          ],
+          "recall@5": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@5": 0.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q17",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-DTC-P0128",
+            "DOC-PROC-07",
+            "DOC-VOY-V19",
+            "DOC-VOY-V03",
+            "DOC-DTC-P0471"
+          ],
+          "attendus": [
+            "DOC-PROC-05",
+            "DOC-DTC-P0380",
+            "DOC-VOY-V03"
+          ],
+          "recall@5": 0.3333333333333333,
+          "mrr@10": 0.25,
+          "ndcg@5": 0.20210734650054757,
+          "top1": 0.0
+        },
+        {
+          "id": "Q18",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-VOY-V07",
+            "DOC-VOY-V03",
+            "DOC-SCH-06",
+            "DOC-PROC-06",
+            "DOC-SCH-05"
+          ],
+          "attendus": [
+            "DOC-VOY-V07",
+            "DOC-PROC-06",
+            "DOC-DTC-P0562"
+          ],
+          "recall@5": 0.6666666666666666,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.6713860725233041,
+          "top1": 1.0
+        },
+        {
+          "id": "Q19",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-DTC-P0403",
+            "DOC-DTC-P0401",
+            "DOC-PROC-03",
+            "DOC-SCH-03",
+            "DOC-DTC-P0299"
+          ],
+          "attendus": [
+            "DOC-PROC-03",
+            "DOC-DTC-P0401"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@5": 0.6934264036172708,
+          "top1": 0.0
+        },
+        {
+          "id": "Q20",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-02",
+            "DOC-DTC-P0300",
+            "DOC-DTC-P0171",
+            "DOC-PROC-08",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-PROC-02",
+            "DOC-DTC-P0171"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.9197207891481876,
+          "top1": 1.0
+        },
+        {
+          "id": "Q21",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-05",
+            "DOC-DTC-P0380",
+            "DOC-SCH-05",
+            "DOC-VOY-V03",
+            "DOC-PROC-06"
+          ],
+          "attendus": [
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q22",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-06",
+            "DOC-VOY-V07",
+            "DOC-SCH-06",
+            "DOC-PROC-08",
+            "DOC-PROC-03"
+          ],
+          "attendus": [
+            "DOC-PROC-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q23",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-VOY-V04",
+            "DOC-DTC-P2002",
+            "DOC-PROC-08",
+            "DOC-VOY-V16"
+          ],
+          "attendus": [
+            "DOC-PROC-04",
+            "DOC-VOY-V04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q24",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0471",
+            "DOC-SCH-04",
+            "DOC-DTC-P0299"
+          ],
+          "attendus": [
+            "DOC-DTC-P0471",
+            "DOC-PROC-04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.9197207891481876,
+          "top1": 0.0
+        },
+        {
+          "id": "Q25",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-DTC-P0471",
+            "DOC-DTC-P2002",
+            "DOC-SCH-04",
+            "DOC-VOY-V04"
+          ],
+          "attendus": [
+            "DOC-DTC-P2002",
+            "DOC-PROC-04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.9197207891481876,
+          "top1": 0.0
+        },
+        {
+          "id": "Q26",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-01",
+            "DOC-SCH-02",
+            "DOC-DTC-P0351",
+            "DOC-SCH-06",
+            "DOC-SCH-07"
+          ],
+          "attendus": [
+            "DOC-SCH-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q27",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-03",
+            "DOC-SCH-07",
+            "DOC-DTC-P0403",
+            "DOC-DTC-P0401",
+            "DOC-PROC-03"
+          ],
+          "attendus": [
+            "DOC-SCH-03"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q28",
+          "categorie": "schema",
+          "top5": [
+            "DOC-DTC-P0471",
+            "DOC-SCH-04",
+            "DOC-DTC-P2002",
+            "DOC-PROC-04",
+            "DOC-PROC-08"
+          ],
+          "attendus": [
+            "DOC-SCH-04",
+            "DOC-DTC-P0471"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q29",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-05",
+            "DOC-PROC-05",
+            "DOC-DTC-P0380",
+            "DOC-SCH-04",
+            "DOC-DTC-P0670"
+          ],
+          "attendus": [
+            "DOC-SCH-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q30",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-07",
+            "DOC-PROC-07",
+            "DOC-DTC-P0128",
+            "DOC-SCH-02",
+            "DOC-SCH-03"
+          ],
+          "attendus": [
+            "DOC-SCH-07"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q31",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-02",
+            "DOC-SCH-01",
+            "DOC-PROC-02",
+            "DOC-PROC-03",
+            "DOC-PROC-06"
+          ],
+          "attendus": [
+            "DOC-SCH-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q32",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-06",
+            "DOC-VOY-V07",
+            "DOC-PROC-06",
+            "DOC-SCH-01",
+            "DOC-SCH-07"
+          ],
+          "attendus": [
+            "DOC-SCH-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q33",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V05",
+            "DOC-VOY-V03",
+            "DOC-VOY-V07",
+            "DOC-VOY-V14",
+            "DOC-VOY-V08"
+          ],
+          "attendus": [
+            "DOC-VOY-V05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q34",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V06",
+            "DOC-VOY-V08",
+            "DOC-VOY-V05",
+            "DOC-VOY-V07",
+            "DOC-VOY-V14"
+          ],
+          "attendus": [
+            "DOC-VOY-V06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q35",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V14",
+            "DOC-GEN-01",
+            "DOC-VOY-V05",
+            "DOC-VOY-V17",
+            "DOC-VOY-V07"
+          ],
+          "attendus": [
+            "DOC-VOY-V14"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q36",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V16",
+            "DOC-VOY-V17",
+            "DOC-VOY-V06",
+            "DOC-VOY-V03",
+            "DOC-VOY-V05"
+          ],
+          "attendus": [
+            "DOC-VOY-V16"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q37",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V19",
+            "DOC-VOY-V17",
+            "DOC-VOY-V15",
+            "DOC-VOY-V01",
+            "DOC-VOY-V03"
+          ],
+          "attendus": [
+            "DOC-VOY-V19"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q38",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V12",
+            "DOC-VOY-V05",
+            "DOC-VOY-V07",
+            "DOC-VOY-V14",
+            "DOC-VOY-V15"
+          ],
+          "attendus": [
+            "DOC-VOY-V12"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q39",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V15",
+            "DOC-VOY-V17",
+            "DOC-VOY-V02",
+            "DOC-VOY-V12",
+            "DOC-VOY-V03"
+          ],
+          "attendus": [
+            "DOC-GEN-01"
+          ],
+          "recall@5": 0.0,
+          "mrr@10": 0.1,
+          "ndcg@5": 0.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q40",
+          "categorie": "general",
+          "top5": [
+            "DOC-GEN-01",
+            "DOC-PROC-01",
+            "DOC-DTC-P0304",
+            "DOC-DTC-P0301",
+            "DOC-DTC-P0302"
+          ],
+          "attendus": [
+            "DOC-GEN-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        }
+      ],
+      "par_categorie": {
+        "code": 1.0,
+        "general": 1.0,
+        "procedure": 1.0,
+        "schema": 1.0,
+        "symptome": 0.667,
+        "voyant": 0.857
+      }
+    },
+    "hybride complet": {
+      "global": {
+        "recall@5": 0.917,
+        "mrr@10": 0.919,
+        "ndcg@5": 0.898,
+        "top1": 0.825
+      },
+      "questions": [
+        {
+          "id": "Q01",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0302",
+            "DOC-PROC-01",
+            "DOC-SCH-01",
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0300"
+          ],
+          "attendus": [
+            "DOC-DTC-P0302",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q02",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0171",
+            "DOC-PROC-02",
+            "DOC-SCH-02",
+            "DOC-DTC-P0172",
+            "DOC-DTC-P0471"
+          ],
+          "attendus": [
+            "DOC-DTC-P0171",
+            "DOC-PROC-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q03",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0380",
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-SCH-03",
+            "DOC-VOY-V03"
+          ],
+          "attendus": [
+            "DOC-DTC-P0380",
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q04",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0304",
+            "DOC-PROC-01",
+            "DOC-SCH-01",
+            "DOC-DTC-P0300",
+            "DOC-DTC-P0301"
+          ],
+          "attendus": [
+            "DOC-DTC-P0304",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q05",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0304",
+            "DOC-DTC-P0301",
+            "DOC-DTC-P0302",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0303",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.8503449055347546,
+          "top1": 1.0
+        },
+        {
+          "id": "Q06",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0420",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0128",
+            "DOC-DTC-P0300",
+            "DOC-VOY-V02"
+          ],
+          "attendus": [
+            "DOC-DTC-P0420"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q07",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0325",
+            "DOC-SCH-01",
+            "DOC-DTC-P0471",
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0300"
+          ],
+          "attendus": [
+            "DOC-DTC-P0325",
+            "DOC-SCH-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q08",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0351",
+            "DOC-PROC-01",
+            "DOC-SCH-01",
+            "DOC-DTC-P0303",
+            "DOC-DTC-P0301"
+          ],
+          "attendus": [
+            "DOC-DTC-P0351",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q09",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0172",
+            "DOC-PROC-02",
+            "DOC-SCH-02",
+            "DOC-DTC-P0171",
+            "DOC-DTC-P0087"
+          ],
+          "attendus": [
+            "DOC-DTC-P0172",
+            "DOC-PROC-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q10",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0403",
+            "DOC-PROC-03",
+            "DOC-SCH-03",
+            "DOC-DTC-P0401",
+            "DOC-SCH-01"
+          ],
+          "attendus": [
+            "DOC-DTC-P0403",
+            "DOC-PROC-03"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q11",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0670",
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-DTC-P0380",
+            "DOC-SCH-07"
+          ],
+          "attendus": [
+            "DOC-DTC-P0670",
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q12",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0087",
+            "DOC-PROC-08",
+            "DOC-DTC-P0471",
+            "DOC-SCH-03",
+            "DOC-DTC-P2002"
+          ],
+          "attendus": [
+            "DOC-DTC-P0087",
+            "DOC-PROC-08"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q13",
+          "categorie": "code",
+          "top5": [
+            "DOC-DTC-P0562",
+            "DOC-PROC-06",
+            "DOC-SCH-06",
+            "DOC-DTC-P0087",
+            "DOC-DTC-P0171"
+          ],
+          "attendus": [
+            "DOC-DTC-P0562",
+            "DOC-PROC-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q14",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-VOY-V02",
+            "DOC-DTC-P0300",
+            "DOC-VOY-V01",
+            "DOC-VOY-V06",
+            "DOC-VOY-V03"
+          ],
+          "attendus": [
+            "DOC-VOY-V02",
+            "DOC-DTC-P0300",
+            "DOC-PROC-01"
+          ],
+          "recall@5": 0.6666666666666666,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.7653606369886217,
+          "top1": 1.0
+        },
+        {
+          "id": "Q15",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-DTC-P0128",
+            "DOC-PROC-07",
+            "DOC-SCH-07",
+            "DOC-SCH-05",
+            "DOC-VOY-V06"
+          ],
+          "attendus": [
+            "DOC-DTC-P0128",
+            "DOC-PROC-07"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q16",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-05",
+            "DOC-SCH-05",
+            "DOC-SCH-04",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0471"
+          ],
+          "attendus": [
+            "DOC-DTC-P0299",
+            "DOC-PROC-08"
+          ],
+          "recall@5": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@5": 0.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q17",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-DTC-P0128",
+            "DOC-PROC-07",
+            "DOC-VOY-V19",
+            "DOC-VOY-V03",
+            "DOC-DTC-P0471"
+          ],
+          "attendus": [
+            "DOC-PROC-05",
+            "DOC-DTC-P0380",
+            "DOC-VOY-V03"
+          ],
+          "recall@5": 0.3333333333333333,
+          "mrr@10": 0.25,
+          "ndcg@5": 0.20210734650054757,
+          "top1": 0.0
+        },
+        {
+          "id": "Q18",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-VOY-V07",
+            "DOC-SCH-06",
+            "DOC-SCH-01",
+            "DOC-VOY-V03",
+            "DOC-PROC-06"
+          ],
+          "attendus": [
+            "DOC-VOY-V07",
+            "DOC-PROC-06",
+            "DOC-DTC-P0562"
+          ],
+          "recall@5": 0.6666666666666666,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.6508205185601091,
+          "top1": 1.0
+        },
+        {
+          "id": "Q19",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-DTC-P0403",
+            "DOC-DTC-P0401",
+            "DOC-PROC-03",
+            "DOC-SCH-03",
+            "DOC-DTC-P0299"
+          ],
+          "attendus": [
+            "DOC-PROC-03",
+            "DOC-DTC-P0401"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 0.5,
+          "ndcg@5": 0.6934264036172708,
+          "top1": 0.0
+        },
+        {
+          "id": "Q20",
+          "categorie": "symptome",
+          "top5": [
+            "DOC-PROC-02",
+            "DOC-DTC-P0300",
+            "DOC-DTC-P0171",
+            "DOC-PROC-08",
+            "DOC-PROC-01"
+          ],
+          "attendus": [
+            "DOC-PROC-02",
+            "DOC-DTC-P0171"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.9197207891481876,
+          "top1": 1.0
+        },
+        {
+          "id": "Q21",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-05",
+            "DOC-DTC-P0380",
+            "DOC-SCH-05",
+            "DOC-VOY-V03",
+            "DOC-PROC-06"
+          ],
+          "attendus": [
+            "DOC-PROC-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q22",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-06",
+            "DOC-VOY-V07",
+            "DOC-SCH-06",
+            "DOC-PROC-08",
+            "DOC-PROC-03"
+          ],
+          "attendus": [
+            "DOC-PROC-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q23",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-VOY-V04",
+            "DOC-DTC-P2002",
+            "DOC-PROC-08",
+            "DOC-VOY-V16"
+          ],
+          "attendus": [
+            "DOC-PROC-04",
+            "DOC-VOY-V04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q24",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-DTC-P2002",
+            "DOC-DTC-P0471",
+            "DOC-SCH-04",
+            "DOC-DTC-P0299"
+          ],
+          "attendus": [
+            "DOC-DTC-P0471",
+            "DOC-PROC-04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.9197207891481876,
+          "top1": 0.0
+        },
+        {
+          "id": "Q25",
+          "categorie": "procedure",
+          "top5": [
+            "DOC-PROC-04",
+            "DOC-DTC-P0471",
+            "DOC-DTC-P2002",
+            "DOC-SCH-04",
+            "DOC-VOY-V04"
+          ],
+          "attendus": [
+            "DOC-DTC-P2002",
+            "DOC-PROC-04"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 0.9197207891481876,
+          "top1": 0.0
+        },
+        {
+          "id": "Q26",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-01",
+            "DOC-SCH-02",
+            "DOC-SCH-06",
+            "DOC-SCH-07",
+            "DOC-DTC-P0351"
+          ],
+          "attendus": [
+            "DOC-SCH-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q27",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-03",
+            "DOC-SCH-07",
+            "DOC-DTC-P0403",
+            "DOC-DTC-P0401",
+            "DOC-PROC-03"
+          ],
+          "attendus": [
+            "DOC-SCH-03"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q28",
+          "categorie": "schema",
+          "top5": [
+            "DOC-DTC-P0471",
+            "DOC-SCH-04",
+            "DOC-DTC-P2002",
+            "DOC-PROC-04",
+            "DOC-PROC-08"
+          ],
+          "attendus": [
+            "DOC-SCH-04",
+            "DOC-DTC-P0471"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q29",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-05",
+            "DOC-SCH-04",
+            "DOC-SCH-03",
+            "DOC-SCH-06",
+            "DOC-SCH-07"
+          ],
+          "attendus": [
+            "DOC-SCH-05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q30",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-07",
+            "DOC-SCH-03",
+            "DOC-SCH-02",
+            "DOC-SCH-06",
+            "DOC-SCH-05"
+          ],
+          "attendus": [
+            "DOC-SCH-07"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q31",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-02",
+            "DOC-SCH-01",
+            "DOC-SCH-06",
+            "DOC-SCH-07",
+            "DOC-PROC-02"
+          ],
+          "attendus": [
+            "DOC-SCH-02"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q32",
+          "categorie": "schema",
+          "top5": [
+            "DOC-SCH-06",
+            "DOC-SCH-01",
+            "DOC-SCH-07",
+            "DOC-SCH-02",
+            "DOC-SCH-05"
+          ],
+          "attendus": [
+            "DOC-SCH-06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q33",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V05",
+            "DOC-VOY-V14",
+            "DOC-VOY-V08",
+            "DOC-VOY-V07",
+            "DOC-VOY-V06"
+          ],
+          "attendus": [
+            "DOC-VOY-V05"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q34",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V06",
+            "DOC-VOY-V08",
+            "DOC-VOY-V05",
+            "DOC-VOY-V07",
+            "DOC-VOY-V14"
+          ],
+          "attendus": [
+            "DOC-VOY-V06"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q35",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V14",
+            "DOC-VOY-V05",
+            "DOC-VOY-V08",
+            "DOC-VOY-V07",
+            "DOC-VOY-V06"
+          ],
+          "attendus": [
+            "DOC-VOY-V14"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q36",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V16",
+            "DOC-VOY-V17",
+            "DOC-VOY-V05",
+            "DOC-VOY-V07",
+            "DOC-VOY-V06"
+          ],
+          "attendus": [
+            "DOC-VOY-V16"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q37",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V19",
+            "DOC-VOY-V17",
+            "DOC-VOY-V16",
+            "DOC-VOY-V03",
+            "DOC-VOY-V01"
+          ],
+          "attendus": [
+            "DOC-VOY-V19"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q38",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V12",
+            "DOC-VOY-V05",
+            "DOC-VOY-V03",
+            "DOC-VOY-V15",
+            "DOC-VOY-V14"
+          ],
+          "attendus": [
+            "DOC-VOY-V12"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        },
+        {
+          "id": "Q39",
+          "categorie": "voyant",
+          "top5": [
+            "DOC-VOY-V17",
+            "DOC-VOY-V15",
+            "DOC-VOY-V02",
+            "DOC-VOY-V03",
+            "DOC-VOY-V04"
+          ],
+          "attendus": [
+            "DOC-GEN-01"
+          ],
+          "recall@5": 0.0,
+          "mrr@10": 0.0,
+          "ndcg@5": 0.0,
+          "top1": 0.0
+        },
+        {
+          "id": "Q40",
+          "categorie": "general",
+          "top5": [
+            "DOC-GEN-01",
+            "DOC-PROC-01",
+            "DOC-DTC-P0304",
+            "DOC-DTC-P0301",
+            "DOC-DTC-P0302"
+          ],
+          "attendus": [
+            "DOC-GEN-01"
+          ],
+          "recall@5": 1.0,
+          "mrr@10": 1.0,
+          "ndcg@5": 1.0,
+          "top1": 1.0
+        }
+      ],
+      "par_categorie": {
+        "code": 1.0,
+        "general": 1.0,
+        "procedure": 1.0,
+        "schema": 1.0,
+        "symptome": 0.667,
+        "voyant": 0.857
+      }
+    }
+  },
+  "acces": {
+    "tests": 10,
+    "reussis": 10,
+    "details": [
+      {
+        "role": "receptionnaire",
+        "question": "causes du code P0301 et procédure de contrôle",
+        "fuites": [],
+        "ok": true
+      },
+      {
+        "role": "receptionnaire",
+        "question": "procédure vanne EGR",
+        "fuites": [],
+        "ok": true
+      },
+      {
+        "role": "receptionnaire",
+        "question": "schéma du préchauffage diesel",
+        "fuites": [],
+        "ok": true
+      },
+      {
+        "role": "receptionnaire",
+        "question": "P0171 prise d'air",
+        "fuites": [],
+        "ok": true
+      },
+      {
+        "role": "receptionnaire",
+        "question": "voyant FAP allumé",
+        "fuites": [],
+        "ok": true
+      },
+      {
+        "role": "invite",
+        "question": "causes du code P0301 et procédure de contrôle",
+        "fuites": [],
+        "ok": true
+      },
+      {
+        "role": "invite",
+        "question": "procédure vanne EGR",
+        "fuites": [],
+        "ok": true
+      },
+      {
+        "role": "invite",
+        "question": "schéma du préchauffage diesel",
+        "fuites": [],
+        "ok": true
+      },
+      {
+        "role": "invite",
+        "question": "P0171 prise d'air",
+        "fuites": [],
+        "ok": true
+      },
+      {
+        "role": "invite",
+        "question": "voyant FAP allumé",
+        "fuites": [],
+        "ok": true
+      }
+    ]
+  }
+}

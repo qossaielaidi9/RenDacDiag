@@ -1,0 +1,4 @@
+# Modèles d'embeddings (téléchargés depuis Hugging Face au premier lancement, ~2,8 Go au total)
+-r requirements.txt
+sentence-transformers>=3.0
+torch>=2.2
