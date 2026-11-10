@@ -2,7 +2,7 @@
 
 Assistant documentaire multimodal et agentique pour le diagnostic des véhicules Renault et Dacia (Clio V, Captur II, Sandero III, Duster II ; moteurs 1.0 TCe, 1.3 TCe et 1.5 Blue dCi). Application au diagnostic automobile du projet MaintiDoc.
 
-Équipe RenDacDiag : Qossai Elaidi, Ebba Soufiane.
+Équipe RenDacDiag : Qossai Elaidi, Ebba Soufiane, Anas Oujaddi.
 
 ## État par livrable
 | Livrable | Contenu | État |
