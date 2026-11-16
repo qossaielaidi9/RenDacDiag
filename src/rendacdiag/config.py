@@ -30,7 +30,7 @@ class Settings:
     qdrant_url: str = field(default_factory=lambda: _env("RDD_QDRANT_URL", ""))
     # Embedder texte : "bge-m3" (production) ou "hash" (tests, sans téléchargement)
     text_embedder: str = field(default_factory=lambda: _env("RDD_TEXT_EMBEDDER", "bge-m3"))
-    # Embedder image : "clip" (production), "none" (désactivé)
+    # Embedder image : "clip" (production), "cnn-resnet" (CNN ResNet-50), "cnn-resnet18" (ResNet-18), "none" (désactivé)
     image_embedder: str = field(default_factory=lambda: _env("RDD_IMAGE_EMBEDDER", "clip"))
     # N'indexer que les documents « vérifié » de l'inventaire (règle du corpus)
     include_unverified: bool = field(default_factory=lambda: _env("RDD_INCLUDE_UNVERIFIED", "0") == "1")

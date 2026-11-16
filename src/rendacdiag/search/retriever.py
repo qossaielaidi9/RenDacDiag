@@ -97,7 +97,13 @@ class Retriever:
     def _image(self, query: str, user: User, famille: str | None, k: int, image_path: str | None) -> list[str]:
         if not self.ie:
             return []
-        v = self.ie.embed_images([image_path])[0] if image_path else self.ie.embed([query])[0]
+        if image_path:
+            v = self.ie.embed_images([image_path])[0]
+        elif hasattr(self.ie, "embed"):
+            v = self.ie.embed([query])[0]
+        else:
+            # Un CNN purement visuel (ex. ResNet) n'encode pas le texte
+            return []
         res = self.qdrant.query_points(IMAGE_COLLECTION, query=v, query_filter=self._qfilter(user, famille), limit=k)
         return [p.payload["element_id"] for p in res.points]
 

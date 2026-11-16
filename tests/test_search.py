@@ -42,3 +42,16 @@ def test_image_list_only_for_visual_queries():
     from rendacdiag.search.retriever import is_visual
     assert is_visual("schéma du préchauffage") and is_visual("témoin orange allumé")
     assert not is_visual("causes du code P0301") and not is_visual("perte de puissance en côte")
+
+
+def test_cnn_embedder_instantiation():
+    from rendacdiag.index.embedders import CnnResNetEmbedder, image_embedder
+    ie = image_embedder("cnn-resnet")
+    assert isinstance(ie, CnnResNetEmbedder)
+    assert ie.dim == 2048
+    assert ie.name == "cnn-resnet50"
+
+    ie18 = image_embedder("cnn-resnet18")
+    assert isinstance(ie18, CnnResNetEmbedder)
+    assert ie18.dim == 512
+    assert ie18.name == "cnn-resnet18"

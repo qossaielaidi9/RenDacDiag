@@ -1,10 +1,11 @@
 """Embedders texte et image.
 
-- "bge-m3" : BAAI/bge-m3 (multilingue, 1024 dim), via sentence-transformers. Fonctionne sur CPU.
-- "clip"   : texte multilingue -> espace CLIP (sentence-transformers/clip-ViT-B-32-multilingual-v1)
-             et images -> CLIP ViT-B/32 (sentence-transformers/clip-ViT-B-32), 512 dim.
-- "hash"   : embedder déterministe sans modèle, pour les tests et l'intégration continue.
-             Il ne capture pas le sens : ses scores ne doivent jamais être rapportés comme résultats.
+- "bge-m3"     : BAAI/bge-m3 (multilingue, 1024 dim), via sentence-transformers. Fonctionne sur CPU.
+- "clip"       : texte multilingue -> espace CLIP (sentence-transformers/clip-ViT-B-32-multilingual-v1)
+                 et images -> CLIP ViT-B/32 (sentence-transformers/clip-ViT-B-32), 512 dim.
+- "cnn-resnet" : extracteur CNN classique (ResNet-50, 2048 dim / ResNet-18, 512 dim via torchvision) pour images.
+- "hash"       : embedder déterministe sans modèle, pour les tests et l'intégration continue.
+                 Il ne capture pas le sens : ses scores ne doivent jamais être rapportés comme résultats.
 """
 from __future__ import annotations
 
@@ -78,9 +79,75 @@ class ClipEmbedder:
         return self.image_model.encode(imgs, normalize_embeddings=True).tolist()
 
 
+class CnnResNetEmbedder:
+    """Embedder d'images basé sur un CNN pré-entraîné (ResNet-50 / ResNet-18 via torchvision)."""
+    name: str
+    dim: int
+
+    def __init__(self, model_name: str = "resnet50", device: str | None = None):
+        self.model_name = model_name
+        self.device = device
+        self._model = None
+        self._preprocess = None
+        if model_name == "resnet18":
+            self.dim = 512
+            self.name = "cnn-resnet18"
+        else:
+            self.dim = 2048
+            self.name = "cnn-resnet50"
+
+    def _load(self):
+        if self._model is not None:
+            return
+        import torch
+        from torchvision import models, transforms
+
+        device = self.device or ("cuda" if torch.cuda.is_available() else "cpu")
+        if self.model_name == "resnet18":
+            weights = models.ResNet18_Weights.DEFAULT
+            model = models.resnet18(weights=weights)
+        else:
+            weights = models.ResNet50_Weights.DEFAULT
+            model = models.resnet50(weights=weights)
+
+        # Remplacement de la couche de classification (fc) par l'identité pour extraire le vecteur caractéristique
+        model.fc = torch.nn.Identity()
+        model.to(device).eval()
+        self._model = model
+        self.device = device
+        self._preprocess = transforms.Compose([
+            transforms.Resize(256),
+            transforms.CenterCrop(224),
+            transforms.ToTensor(),
+            transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+        ])
+
+    def embed_images(self, paths: Sequence[str]) -> list[list[float]]:
+        self._load()
+        import torch
+        from PIL import Image
+
+        tensors = []
+        for p in paths:
+            img = Image.open(p).convert("RGB")
+            tensors.append(self._preprocess(img))
+        batch = torch.stack(tensors).to(self.device)
+
+        with torch.no_grad():
+            features = self._model(batch)
+            features = torch.nn.functional.normalize(features, p=2, dim=1)
+        return features.cpu().tolist()
+
+
 def text_embedder(name: str) -> TextEmbedder:
     return {"hash": HashEmbedder, "bge-m3": BGEM3Embedder}[name]()
 
 
 def image_embedder(name: str):
-    return None if name == "none" else ClipEmbedder()
+    if name == "none":
+        return None
+    if name in ("cnn-resnet", "cnn-resnet50", "cnn"):
+        return CnnResNetEmbedder(model_name="resnet50")
+    if name == "cnn-resnet18":
+        return CnnResNetEmbedder(model_name="resnet18")
+    return ClipEmbedder()
