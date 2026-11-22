@@ -13,7 +13,7 @@ Assistant documentaire multimodal et agentique pour le diagnostic des véhicules
 ## Arborescence
 ```
 corpus/            50 PDF, inventaire.csv, prompts_corpus.md, images, licences
-config/users.yaml  utilisateurs de démonstration (mot de passe : demo-<login>)
+config/users.yaml  utilisateur unique (login : technicien, mot de passe : demo-technicien)
 src/rendacdiag/
   ingestion/       extraction PDF -> éléments (sections, tableaux, figures) + métadonnées
   index/           embedders (BGE-M3, CLIP, hash), BM25, construction Qdrant
