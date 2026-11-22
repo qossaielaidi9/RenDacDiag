@@ -10,6 +10,69 @@ Assistant documentaire multimodal et agentique pour le diagnostic des véhicules
 | L1 | Cadrage, corpus (50 documents), architecture, risques | `docs/L1_MaintiDoc_RenDacDiag.pdf`, `corpus/` |
 | L2 | Ingestion, index, recherche hybride, contrôle d'accès, évaluation | `src/`, `eval/`, `tests/`, `docs/L2_MaintiDoc_RenDacDiag.pdf` |
 
+## Architecture RAG Multimodale
+
+```mermaid
+flowchart TD
+    %% 1. ENTRÉE DU TECHNICIEN
+    subgraph S1["1. ENTRÉE DU TECHNICIEN"]
+        direction LR
+        TXT["Texte : 'Voyant allumé sur Duster dCi'"]
+        IMG["Photo : Image du voyant ou du moteur"]
+    end
+
+    %% 2. TRAITEMENT MULTIMODAL PARALLÈLE
+    subgraph S2["2. TRAITEMENT MULTIMODAL PARALLÈLE"]
+        direction LR
+        ENC_TXT["Encodeur Texte (BGE-M3) + BM25<br/>(Extrait le sens et les mots-clés)"]
+        ENC_IMG["Encodeur Image (CLIP)<br/>(Transforme la photo en vecteur visuel)"]
+    end
+
+    %% 3. RECHERCHE HYBRIDE DANS QDRANT
+    subgraph S3["3. RECHERCHE HYBRIDE DANS QDRANT"]
+        direction TB
+        subgraph COLS[" "]
+            direction LR
+            Q_TXT[("Qdrant : text_collection<br/>(Procédure & Manuels)")]
+            Q_IMG[("Qdrant : image_collection<br/>(Schémas électriques & Icônes voyants)")]
+        end
+        RRF["Fusion RRF<br/>(Combine les résultats texte + image)"]
+        TOP["Top Extraits : Schéma officiel + Procédure associée"]
+        
+        Q_TXT --> RRF
+        Q_IMG --> RRF
+        RRF --> TOP
+    end
+
+    %% 4. RAISONNEMENT VLM
+    subgraph S4["4. RAISONNEMENT VLM (Vision-Langage)"]
+        direction TB
+        VLM["Modèle Vision (ex: Qwen2.5-VL)<br/>Reçoit :<br/>1. La photo du technicien<br/>2. Sa question texte<br/>3. Le schéma officiel du manuel récupéré"]
+        
+        OUT["RÉPONSE FINALE SOURCÉE :<br/>• Identification : 'Témoin de préchauffage / défaillance électronique'<br/>• Cause probable : Circuit de bougies (Famille B Diesel)"]
+        
+        VLM --> OUT
+    end
+
+    %% Flux directs verticaux (symétrie)
+    TXT --> ENC_TXT
+    IMG --> ENC_IMG
+    
+    ENC_TXT --> Q_TXT
+    ENC_IMG --> Q_IMG
+    
+    TOP --> VLM
+    
+    %% Lignes de transmission directe au VLM
+    TXT -.->|"Question"| VLM
+    IMG -.->|"Photo originale"| VLM
+```
+
+Le résultat final pour le technicien suit un format fixe et direct :
+* **Identification :** `[Nom du voyant, composant ou code défaut détecté]`
+* **Cause probable :** `[Origine technique de la panne selon la documentation constructeur]`
+
+
 ## Arborescence
 ```
 corpus/            50 PDF, inventaire.csv, prompts_corpus.md, images, licences
